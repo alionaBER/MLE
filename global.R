@@ -3,7 +3,7 @@ library(shiny)
 S <- 20 #total number of applicants to a summer school
 C <- 50 #total number of calls to hotline
 
-#########  student level ######### 
+#########  applicants level ######### 
 applicantID <- 1:S
 
 ### binomial

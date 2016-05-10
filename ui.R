@@ -1,5 +1,5 @@
 shinyUI(pageWithSidebar(
-        headerPanel("Maximul likelihood estimation"),
+        headerPanel("Maximum likelihood estimation"),
         sidebarPanel(
                 radioButtons('data', 'Data set:', 
                              choices = list("Applicants" = "applicants", 
@@ -46,6 +46,7 @@ shinyUI(pageWithSidebar(
                 ),
                 p("The datasets represent applicants to a summer school and their calls to the admission hotline. 
                   There are five employees and each call is randomly assign to one of them."), 
+                
                 fluidRow(
                         column(6,
                         h4("Probability mass function"), plotOutput("pmf")
